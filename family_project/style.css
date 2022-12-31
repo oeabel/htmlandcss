@@ -1,0 +1,61 @@
+.navbar {
+    position: relative;
+    top 0;
+    width: 100%;
+    background-color: lightcyan;
+}
+
+.navbar li {
+    display: inline-block;
+    padding: 10px 10px;
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+.banner {
+    background-color: navy;
+    color: yellow;
+    margin-top: 25;
+    text-align: center;
+    font-family: Georgia;
+    padding: 25px 0;
+}
+
+#small-family {
+    height: 300px;
+    width: 300px;
+    filter: drop-shadow(1px 1px 1px black);
+}
+
+.buttons_section {
+ 
+
+}
+
+.btn {
+    background-color: lightgray;
+    border-radius: 2px;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .btn:hover {
+    background-color: #fff;
+    color: #2176FF;
+    transition: color .1s ease-in, background-color .1s ease-in;
+  }
+  
+  .btn:active {
+    font-size: 18px;
+    transition: font-size .1s ease-in-out;
+  }
+  
