@@ -1,0 +1,19 @@
+table {
+	border: 3px dotted indianred;
+}
+
+td:hover{
+	background-color: LightGoldenRodYellow;
+	color: gray;
+}
+
+tr, th {
+	background-color: HoneyDew;
+	font: TimesNewRoman;
+}
+
+tr, td {
+	background-color: LightCyan;
+	font: calibri;
+}
+	
