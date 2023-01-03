@@ -83,7 +83,7 @@ h1 {
     background: #77b800;
 }
 
-*/  ANIMATION EFFECT */
+/*  ANIMATION EFFECT */
 @keyframes race{
     0%, 100% {
         transform: translateY(0px);
@@ -93,5 +93,5 @@ h1 {
             transform: translateY(300px);
         }
     }
-}
+
 
