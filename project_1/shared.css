@@ -341,6 +341,7 @@ section {
     .head-main {
         font-size: 28px;
     }
+}
 
 @media all and (max-width: 381px) and (min-width: 200px) {
     .head-main {
