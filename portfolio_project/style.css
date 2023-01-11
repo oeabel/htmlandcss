@@ -22,7 +22,8 @@ h1:hover {
 
 /* Styling for portfolio title text */
 .white-text {
-    color: #fff; /* This is used to change the color of the portfolio title text */
+    color: cornsilk; /* This is used to change the color of the portfolio title text */
+    font-weight: bold;
 }
 
 /* Paragraph elements */
@@ -44,6 +45,7 @@ p:hover {
 /* Center class - this applies to all elements with the class "center" */
 .center {
     text-align: center; /* This center aligns the text */
+    color: cornsilk; 
 }
 
 /* Center class hover effect - This only affects the quote, github link, and footer */
@@ -99,7 +101,7 @@ footer {
 /***** NAVBAR STYLING *****/
 .Navbar {
     overflow: hidden; /* This ensures that any content that overflows beyond the boundary of our nav bar is not displayed */
-    background-color: black; /* This colors the navbar black */
+    background-color: palegoldenrod; /* This colors the navbar black */
     position: fixed; /* This keeps the navbar at the top of the screen as we scroll */
     top: 0; /* This ensures no space is displayed above the navbar */
     width: 100%; /* This makes the navbar span the entire width of the page */
@@ -118,7 +120,7 @@ footer {
 .Navbar a {
     float: left; /* This specifies that the text floats on the left on the navbar */
     display: block; /* This ensures that other text will be displayed on the same line or row, instead of a new line */
-    color: white; /* This is the font color for text on our navbar */
+    color: midnightblue; /* This is the font color for text on our navbar */
     padding: 14px 16px; /* This adds padding around our text */
     text-decoration: none; /* This gets rid of the underlines under the text on our navbar */
     font-family: Avant Garde, Helvetica; /* This specifies the font family for text on our navbar */
@@ -152,7 +154,7 @@ footer {
 
 /* Navbar home button */
 .Navbar a.active { /* This targets the a element on the navbar with the "active" class */
-    background-color: darkgray;
+    background-color: lightgoldenrodyellow;
 }
 /***** END OF NAVBAR STYLING *****/
 
@@ -175,7 +177,7 @@ footer {
 
 /* Texts over the video */
 .Video_Text {
-    background: rgba(0, 0, 0, 0.5); /* This provides a semi-transparent background for the text to sit over */
+    background: steelblue; /* This provides a semi-transparent background for the text to sit over */
     color: white; /* Makes the font color white */
     width: 100%; /* Ensures the video-text container fills the width of the video */
     padding: 20px; /* This adds padding around the video-text container so that the background goes slightly beyond the text */
@@ -218,7 +220,7 @@ footer {
     padding: 10px;
     padding-top: 1.9%;
     height: 400px;
-    background-color: #4d4d4d;
+    background-color: lightslategray;
 }
 
 /* This class is applied to the columns in the final row, overriding the height and padding to provide more room for the contact form  while keeping the rest of the formatting from Column_1 or Column_2 */
