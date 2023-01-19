@@ -44,143 +44,69 @@
 		
 		<!-- MISC PHOTOS AND VIDEOS TO BE ORGANIZED LATER -->
 		<!-- Images used to open the lightbox -->
-		<div class="row">
-			<div class="column">
-				<img src="./images/ziegler_sibs.jpg"
-		onclick="openModal(); currenSlide(1)" class="hover-shadow">
-			</div>
-			<div class="column">
-				<img src="./images/abel_family.jpg"
-		onclick="openModal(); currenSlide(2)" class="hover-shadow">
-			</div>
-			<div class="column">
-				<img src="./images/family_walk_doane.JPG"
-		onclick="openModal(); currenSlide(3)" class="hover-shadow">
-			</div>
-			<div class="column">
-				<img src="./images/logan_putting_in_central_line.JPG"
-		onclick="openModal(); currenSlide(4)" class="hover-shadow">
-			</div>
-			<div class="column">
-				<img src="./images/solomon_kalim_thea_taraz_luka.JPG"
-		onclick="openModal(); currenSlide(5)" class="hover-shadow">
-			</div>
-			<div class="column">
-				<img src="./images/Logan_Solomon_Naim.JPG"
-		onclick="openModal(); currenSlide(6)" class="hover-shadow">
-			</div>
-			<div class="column">
-				<img src="./images/Caiden_in_Darmstadt.JPG"
-		onclick="openModal(); currenSlide(7)" class="hover-shadow">
-			</div>
-			<div class="column">
-				<img src="./images/taraz_thea.JPG"
-		onclick="openModal(); currenSlide(8)" class="hover-shadow">
-			</div>
-			<div class="column">
-				<img src="./images/solomon_elijah_darajun.JPG"
-		onclick="openModal(); currenSlide(9)" class="hover-shadow">
-			</div>
-		</div>
+		<h2 style="text-align:center">Photos!</h2>
 
-		<!-- The Modal/Lightbox -->
-		<div id="myModal" class="modal">
-			<span class="close cursor" onclick="closeModal()">&times</span>
-			<div class="modal-content">
-
-				<div class="mySlides">
-					<div class="numbertext">1/9</div>
-					<img src="./images/ziegler_sibs_wide.jpg"
-				</div>
-
-				<div class="mySlides">
-					<div class="numbertext">2/9</div>
-					<img src="./images/abel_family_wide.jpg"
-				</div>
-
-				<div class="mySlides">
-					<div class="numbertext">3/9</div>
-					<img src="./images/family_walk_doane_wide.jpg"
-				</div>
-
-				<div class="mySlides">
-					<div class="numbertext">4/9</div>
-					<img src="./images/logan_putting_in_central_line_wide.jpg"
-				</div>
-
-				<div class="mySlides">
-					<div class="numbertext">5/9</div>
-					<img src="./images/solomon_kalim_thea_taraz_luka_wide.jpg"
-				</div>
-
-				<div class="mySlides">
-					<div class="numbertext">6/9</div>
-					<img src="./images/Logan_Solomon_Naim_wide.jpg"
-				</div>
-
-				<div class="mySlides">
-					<div class="numbertext">7/9</div>
-					<img src="./images/Caiden_in_Darmstadt_wide.jpg"
-				</div>
-
-				<div class="mySlides">
-					<div class="numbertext">8/9</div>
-					<img src="./images/taraz_thea_wide.jpg"
-				</div>
-
-				<div class="mySlides">
-					<div class="numbertext">8/9</div>
-					<img src="./images/solomon_elijah_darajun_wide.jpg"
-				</div>
-
-				<!-- Next/previous controls -->
-				<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-				<a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-				<!-- Caption Text -->
-				<div class="caption-container">
-					<p id="caption"></p>
-				</div>
-
-				<!-- Thumnail image controls -->
-				<div class="column">
-					<img class="demo" src="./images/ziegler_sibs.jpg" onclick="currentSlide(1)" alt="Ziegler Siblings">
-				</div>
-
-				<div class="column">
-					<img class="demo" src="./images/abel_family.JPG" onclick="currentSlide(1)" alt="Abel Family">
-				</div>
-
-				<div class="column">
-					<img class="demo" src="./images/family_walk_doane.JPG" onclick="currentSlide(1)" alt="Walking at Doane">
-				</div>
-
-				<div class="column">
-					<img class="demo" src="./images/logan_putting_in_central_line.JPG" onclick="currentSlide(1)" alt="Dr. Abel">
-				</div>
-
-				<div class="column">
-					<img class="demo" src="./images/solomon_kalim_thea_taraz_luka.JPG" onclick="currentSlide(1)" alt="Making cookies">
-				</div>
-
-				<div class="column">
-					<img class="demo" src="./images/Logan_Solomon_Naim.JPG" onclick="currentSlide(1)" alt="Logan Solomon Naim">
-				</div>
-
-				<div class="column">
-					<img class="demo" src="./images/Caiden_in_Darmstadt.JPG" onclick="currentSlide(1)" alt="Caiden in Darmstadt">
-				</div>
-
-				<div class="column">
-					<img class="demo" src="./images/taraz_thea.JPG" onclick="currentSlide(1)" alt="Taraz and Thea">
-				</div>
-
-				<div class="column">
-					<img class="demo" src="./images/solomon_elijah_darajun.JPG" onclick="currentSlide(1)" alt="Solomon, Elijah, and Darajun">
-				</div>
-
-			</div>
-		</div>
+        <div class="row">
+          <div class="column">
+            <img src="images/abel_family.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+          </div>
+          <div class="column">
+            <img src="images/family_walk_doane.JPG" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+          </div>
+          <div class="column">
+            <img src="images/Logan_Solomon_Naim.JPG" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+          </div>
+          <div class="column">
+            <img src="images/solomon_elijah_darajun.JPG" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+          </div>
+        </div>
+        
+        <div id="myModal" class="modal">
+          <span class="close cursor" onclick="closeModal()">&times;</span>
+          <div class="modal-content">
+        
+            <div class="mySlides">
+              <div class="numbertext">1 / 4</div>
+              <img src="images/abel_family_wide.JPG" style="width:100%">
+            </div>
+        
+            <div class="mySlides">
+              <div class="numbertext">2 / 4</div>
+              <img src="images/family_walk_doane_wide.JPG" style="width:100%">
+            </div>
+        
+            <div class="mySlides">
+              <div class="numbertext">3 / 4</div>
+              <img src="images/Logan_Solomon_Naim_wide.JPG" style="width:100%">
+            </div>
+            
+            <div class="mySlides">
+              <div class="numbertext">4 / 4</div>
+              <img src="images/solomon_elijah_darajun_wide.JPG" style="width:100%">
+            </div>
+            
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        
+            <div class="caption-container">
+              <p id="caption"></p>
+            </div>
+        
+        
+            <div class="column">
+              <img class="demo cursor" src="images/abel_family_wide.JPG" style="width:100%" onclick="currentSlide(1)" alt="The Abel Family">
+            </div>
+            <div class="column">
+              <img class="demo cursor" src="images/family_walk_doane_wide.JPG" style="width:100%" onclick="currentSlide(2)" alt="Family Walk at Doane">
+            </div>
+            <div class="column">
+              <img class="demo cursor" src="images/Logan_Solomon_Naim_wide.JPG" style="width:100%" onclick="currentSlide(3)" alt="Logan, Solomon, and Naim">
+            </div>
+            <div class="column">
+              <img class="demo cursor" src="images/solomon_elijah_darajun_wide.JPG" style="width:100%" onclick="currentSlide(4)" alt="Solomon, Elijah, and Darajun">
+            </div>
+          </div>
+        </div>
 		
 		
 		<!-- <section id="photos">
