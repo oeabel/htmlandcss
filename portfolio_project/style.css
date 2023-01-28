@@ -10,7 +10,7 @@ body {
     opacity: 1; /*this and transition affect the page loading fade in effect*/
     transition: 3s opacity; /* this causes a 3 second fade in*/
     letter-spacing: .2v; /*vw is a relative measurement, 1 vw is equal to 1% of the viewport width */
-    font-family: Avant Garde, Helvetica;
+    font-family: 'Amatic SC', cursive;
     font-size: 1.5vw;
     overflow-x: hidden; /*this prevents the horizontal scroll bar from appearing when the quote is hovered over */
     user-select: none; /*this prevents the text on the webpage from being highlighted by the user */
@@ -24,7 +24,7 @@ body.fade-out {
 /* Heading 1 elements */
 h1 {
     text-transform: uppercase; /* Capitalizing all h1 headings */
-    font-family: "Trebuchet MS", Optima; /* Sets the font family of all h1 headings */
+    font-family: 'Amatic SC', cursive; /* Sets the font family of all h1 headings */
     text-align: center; /* Centering all h1 elements */
     margin-top: 3%; /* Adds a small margin above h1 elements */
     color: #1a1a1a; 
@@ -45,10 +45,10 @@ h1:hover {
 
 /* Paragraph elements */
 p {
-    font-family: Perpetua, Rockwell Extra Bold;
+    font-family: 'Amatic SC', cursive, Bold;
     text-align: justify; /* Justify text within paragraph elements */
     letter-spacing: 1px; /* This expands the text slightly */
-    font-size: 20px;
+    font-size: 10px;
     padding-left: 20px; /* Adds padding to the left of the paragraph element */
     padding-right: 20px; /* Adds padding to the right of the paragraph element */
 }
@@ -141,8 +141,8 @@ footer {
     color: midnightblue; /* This is the font color for text on our navbar */
     padding: 14px 16px; /* This adds padding around our text */
     text-decoration: none; /* This gets rid of the underlines under the text on our navbar */
-    font-family: Avant Garde, Helvetica; /* This specifies the font family for text on our navbar */
-    font-size: 20px; /* This specifies the font size for text on our navbar */
+    font-family: 'Amatic SC', cursive, Bold; /* This specifies the font family for text on our navbar */
+    font-size: 30px; /* This specifies the font size for text on our navbar */
     text-align: center; /* This centers the text within its container */
     position: relative; /* This sets the text relative to its normal positioning, allowing us to use the animation below */
     -webkit-animation: moveNavText 5.75s; /* Animation for Safari 4.0 - 8.0 */
@@ -270,7 +270,7 @@ footer {
     bottom: 0; /* This property sets the text at the bottom of the image */
     width: 100%; /* The element covers the full width of the image */
     text-align: center; /* The text is center aligned within the image */
-    font-family: Perpetua, Rockwell Extra Bold; 
+    font-family: "Trebuchet MS", Optima, Bold; 
     letter-spacing: .1vw; /* This gives slight spacing between the letters */
     font-size: 1.5vw; /* Font size is relative to the size of the viewport width */
     background-color: rgba(0, 0, 0, 0.75); /* Gives a slightly transparent black background */
@@ -328,6 +328,7 @@ footer {
     padding-top: 3%; /* This ensures there is space between the top of the column and our headings */
     height: 400px; /* This sets the height of the column to 400px -  this may need to be adjusted depending on the text you enter */
     background-color: #f2f2f2; /* Sets the background color of the columns with class Column_1 */
+    font-size: 10px;
 }
 
 /* Screens 576px and smaller will display a scroll bar if the text overflows the column height */
@@ -344,6 +345,7 @@ footer {
     padding-top: 1.9%;
     height: 400px;
     background-color: lightslategray;
+    font-size: 10px;
 }
 
 /* This class is applied to the columns in the final row, overriding the height and padding to provide more room for the contact form  while keeping the rest of the formatting from Column_1 or Column_2 */
