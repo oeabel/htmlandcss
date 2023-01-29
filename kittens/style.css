@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(206, 229, 208);
+}
+
+.hcolorz {
+    background-color: rgb(243, 240, 215);
+    height: 75px;
+    width: auto;
+    padding-top: 5px;
+}
+
+h1 {
+    font-family: 'IM Fell DW Pica SC', serif;
+    font-variant: small-caps;
+}
+
+p {
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+    font-size: 25px;
+}
+
+.fcolorz {
+    padding: 2%;
+    background-color: rgb(255, 120, 120);
+    color: white;
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+}
+
+img {
+    border-radius: 8px;
+    max-width: 50%;
+    height: 340px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.colorz {
+    height: 500px;
+    width: auto;
+}
