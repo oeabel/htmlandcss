@@ -4,7 +4,7 @@ body {
 
 .hcolorz {
     background-color: rgb(243, 240, 215);
-    height: 75px;
+    height: 100px;
     width: auto;
     padding-top: 5px;
 }
@@ -12,6 +12,7 @@ body {
 h1 {
     font-family: 'IM Fell DW Pica SC', serif;
     font-variant: small-caps;
+    font-size: 50px;
 }
 
 p {
@@ -21,7 +22,6 @@ p {
 }
 
 .fcolorz {
-    padding: 2%;
     background-color: rgb(255, 120, 120);
     color: white;
     font-family: 'Dosis', sans-serif;
@@ -40,4 +40,16 @@ img {
 .colorz {
     height: 500px;
     width: auto;
+}
+
+.btn {
+    font-family: 'Dosis', sans-serif;
+    background-color: rgb(224, 192, 151);
+    letter-spacing: .3vw;
+    font-size: 1.5vw;
+    font-weight: bold;
+    padding: 1.5vw;
+    cursor: pointer;
+    width: 100%;
+    height: auto;
 }
