@@ -26,8 +26,7 @@ h1 {
     text-transform: uppercase; /* Capitalizing all h1 headings */
     font-family: 'Amatic SC', cursive; /* Sets the font family of all h1 headings */
     text-align: center; /* Centering all h1 elements */
-    margin-top: 3%; /* Adds a small margin above h1 elements */
-    color: #1a1a1a; 
+    margin-top: 3%; /* Adds a small margin above h1 elements */ 
 }
 
 /* Heading 1 element hover effect */
@@ -39,7 +38,7 @@ h1:hover {
 
 /* Styling for portfolio title text */
 .white-text {
-    color: cornsilk; /* This is used to change the color of the portfolio title text */
+    color: #FFFBEB; /* This is used to change the color of the portfolio title text */
     font-weight: bold;
 }
 
@@ -73,7 +72,7 @@ p:hover {
 
 /* Anchor elements */
 a {
-    color: blue; /* This ensures all links are blue */
+    color: slateblue; /* This ensures all links are blue */
     cursor: pointer; /* this ensures all liinks change the mouse to a pointers when hovered or clicked */
 }
 
@@ -112,14 +111,15 @@ img:hover {
 /* Styling for footer element */
 footer {
     padding: 2%; /* This gives the footer padding that is equal to 2% of the width of the element's area */
-    background-color: white;
+    background-color: #251749;
+    color: #FFFBEB;
 }
 /***** END OF GENERAL STYLING *****/
 
 /***** NAVBAR STYLING *****/
 .Navbar {
     overflow: hidden; /* This ensures that any content that overflows beyond the boundary of our nav bar is not displayed */
-    background-color: aliceblue; /* This colors the navbar black */
+    background-color: #263159; /* This colors the navbar black */
     position: fixed; /* This keeps the navbar at the top of the screen as we scroll */
     top: 0; /* This ensures no space is displayed above the navbar */
     width: 100%; /* This makes the navbar span the entire width of the page */
@@ -138,7 +138,7 @@ footer {
 .Navbar a {
     float: left; /* This specifies that the text floats on the left on the navbar */
     display: block; /* This ensures that other text will be displayed on the same line or row, instead of a new line */
-    color: midnightblue; /* This is the font color for text on our navbar */
+    color: #FFFBEB; /* This is the font color for text on our navbar */
     padding: 14px 16px; /* This adds padding around our text */
     text-decoration: none; /* This gets rid of the underlines under the text on our navbar */
     font-family: 'Amatic SC', cursive, Bold; /* This specifies the font family for text on our navbar */
@@ -165,14 +165,14 @@ footer {
 
 /* Navbar hover effects */
 .Navbar a:hover {
-    background-color: #f4f4f4; /* Defines the background color that will display when you hover over the link */
+    background-color: #FFFBEB; /* Defines the background color that will display when you hover over the link */
     color: black; /* This defines the font color that will display when navbar a elements are hovered over */
     font-weight: bold; /* This makes the text on the navbar bold when hovered over */
 }
 
 /* Navbar home button */
 .Navbar a.active { /* This targets the a element on the navbar with the "active" class */
-    background-color: lavender;
+    background-color: #251749;
 }
 /***** END OF NAVBAR STYLING *****/
 
@@ -195,8 +195,8 @@ footer {
 
 /* Texts over the video */
 .Video_Text {
-    background: steelblue; /* This provides a semi-transparent background for the text to sit over */
-    color: white; /* Makes the font color white */
+    background: #495579; /* This provides a semi-transparent background for the text to sit over */
+    color: #FFFBEB; /* Makes the font color white */
     width: 100%; /* Ensures the video-text container fills the width of the video */
     padding: 20px; /* This adds padding around the video-text container so that the background goes slightly beyond the text */
     position: relative; /* This sets the text relative to its normal positioning, allowing us to use the animation below */
@@ -327,7 +327,7 @@ footer {
     padding: 10px;
     padding-top: 3%; /* This ensures there is space between the top of the column and our headings */
     height: 400px; /* This sets the height of the column to 400px -  this may need to be adjusted depending on the text you enter */
-    background-color: #f2f2f2; /* Sets the background color of the columns with class Column_1 */
+    background-color: #FFFBEB; /* Sets the background color of the columns with class Column_1 */
     font-size: 10px;
 }
 
@@ -344,7 +344,7 @@ footer {
     padding: 10px;
     padding-top: 1.9%;
     height: 400px;
-    background-color: lightslategray;
+    background-color: #495579;
     font-size: 10px;
 }
 
